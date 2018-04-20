@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "usertimeline Suite">
+	<test name = "RestAssured Test">
+		<classes>
+			<class name = "com.restapi.statuses.UserTimeLineTest"></class>
+		</classes>
+	
+	</test>
+</suite>

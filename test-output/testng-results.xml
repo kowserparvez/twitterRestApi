@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression Suite" duration-ms="3939" started-at="2018-04-20T15:14:49Z" finished-at="2018-04-20T15:14:52Z">
+    <groups>
+    </groups>
+    <test name="RestAssured Test" duration-ms="3939" started-at="2018-04-20T15:14:49Z" finished-at="2018-04-20T15:14:52Z">
+      <class name="com.restapi.statuses.UserTimeLineResponseTest">
+        <test-method status="PASS" signature="readTweets()[pri:0, instance:com.restapi.statuses.UserTimeLineResponseTest@6f7fd0e6]" name="readTweets" duration-ms="350" started-at="2018-04-20T11:14:52Z" finished-at="2018-04-20T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweets -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.restapi.statuses.UserTimeLineResponseTest@6f7fd0e6]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-20T11:14:52Z" finished-at="2018-04-20T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resposeTweet()[pri:0, instance:com.restapi.statuses.UserTimeLineResponseTest@6f7fd0e6]" name="resposeTweet" duration-ms="398" started-at="2018-04-20T11:14:52Z" finished-at="2018-04-20T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resposeTweet -->
+      </class> <!-- com.restapi.statuses.UserTimeLineResponseTest -->
+      <class name="com.restapi.statuses.UserTimeLineTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.restapi.statuses.UserTimeLineTest@68c4039c]" name="setup" is-config="true" duration-ms="375" started-at="2018-04-20T11:14:49Z" finished-at="2018-04-20T11:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="readTweets()[pri:0, instance:com.restapi.statuses.UserTimeLineTest@68c4039c]" name="readTweets" duration-ms="1619" started-at="2018-04-20T11:14:49Z" finished-at="2018-04-20T11:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweets -->
+      </class> <!-- com.restapi.statuses.UserTimeLineTest -->
+      <class name="com.restapi.statuses.EndToEnd">
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:com.restapi.statuses.EndToEnd@ae45eb6]" name="postTweet" duration-ms="479" started-at="2018-04-20T11:14:51Z" finished-at="2018-04-20T11:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTweet -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.restapi.statuses.EndToEnd@ae45eb6]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-20T11:14:51Z" finished-at="2018-04-20T11:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="readTweet()[pri:0, instance:com.restapi.statuses.EndToEnd@ae45eb6]" name="readTweet" duration-ms="352" started-at="2018-04-20T11:14:51Z" depends-on-methods="com.restapi.statuses.EndToEnd.postTweet" finished-at="2018-04-20T11:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweet -->
+        <test-method status="PASS" signature="deleteATweet()[pri:0, instance:com.restapi.statuses.EndToEnd@ae45eb6]" name="deleteATweet" duration-ms="324" started-at="2018-04-20T11:14:51Z" depends-on-methods="com.restapi.statuses.EndToEnd.readTweet" finished-at="2018-04-20T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteATweet -->
+      </class> <!-- com.restapi.statuses.EndToEnd -->
+    </test> <!-- RestAssured Test -->
+  </suite> <!-- regression Suite -->
+</testng-results>
